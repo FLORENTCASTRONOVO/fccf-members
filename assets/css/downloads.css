@@ -1,0 +1,25 @@
+/* FCCF Members — Liste de téléchargements protégés */
+
+.fccfm-downloads {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.fccfm-downloads li {
+  margin: 0.25rem 0;
+}
+
+.fccfm-downloads a {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border, #2a2f3a);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.2s ease-in-out;
+}
+
+.fccfm-downloads a:hover {
+  background: var(--card, #161925);
+  color: var(--text-invert, #ffffff);
+}

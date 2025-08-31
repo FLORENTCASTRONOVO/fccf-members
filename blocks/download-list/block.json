@@ -1,0 +1,15 @@
+{
+  "apiVersion": 3,
+  "name": "fccf/download-list",
+  "title": "Liste de téléchargements",
+  "description": "Affiche les fichiers protégés pour les membres",
+  "icon": "download",
+  "category": "widgets",
+  "attributes": {
+    "limit": { "type": "number", "default": 50 }
+  },
+  "editorScript": "file:index.js",
+  "style": "file:./style.css",
+  "render": "file:view.php",
+  "supports": { "html": false }
+}
